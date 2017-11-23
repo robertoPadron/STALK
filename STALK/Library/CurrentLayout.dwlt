@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 49
+  controlID: 33
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 50
+  controlID: 34
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 546
     width: 907
     height: 521
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -312,9 +312,9 @@ MonoBehaviour:
     height: 529
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: dc9cfdffec67ffff0268ffffda75ffff3079ffff46e8ffff42eeffffd8faffff00000000
+    m_SelectedIDs: 68800000
+    m_LastClickedID: 32872
+    m_ExpandedIDs: 86dcf9ffdee9fcff10ebfcffa8f6fcffd6fcfcff0afefcff9000fdff5e06fdfffad2feff88fbffff00000000762f00005e8000009480000010830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -408,19 +408,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/MATERIALS
+    - Assets/SCRIPTS/MENU
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MATERIALS
+  - Assets/SCRIPTS/MENU
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\guillermo.fernandez\Desktop\STALK\STALK\STALK
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5c2d0000
-    m_LastClickedID: 11612
-    m_ExpandedIDs: 00000000d42c0000202d00005c2d0000162e0000542e0000782e0000a02e0000be2e0000d22e0000322f0000363000001e3100003e310000543100003e3500004035000000ca9a3bffffff7f
+    m_SelectedIDs: 12280000
+    m_LastClickedID: 10258
+    m_ExpandedIDs: 00000000f827000046280000822800003c2900007a2900009e290000c6290000e4290000f8290000582a00005e2b0000462c0000662c00007c2c0000ba300000bc30000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d42c0000202d00005c2d0000162e0000542e0000782e0000a02e0000be2e0000d22e0000363000001e3100003e310000543100003e35000040350000
+    m_ExpandedIDs: 00000000f827000046280000822800003c2900007a2900009e290000c6290000e4290000f8290000582a00005e2b0000462c0000662c00007c2c0000ba300000bc300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,8 +546,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
@@ -559,18 +559,18 @@ MonoBehaviour:
       y: 17
       width: 905
       height: 483
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 452.5, y: 241.5}
+    m_Scale: {x: 1.1124113, y: 1.1124113}
+    m_Translation: {x: 466.36606, y: 252.64731}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -452.5
-      y: -241.5
-      width: 905
-      height: 483
+      x: -419.2389
+      y: -227.11682
+      width: 813.54803
+      height: 434.19193
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -606,14 +606,14 @@ MonoBehaviour:
     width: 905
     height: 525
   m_SceneLighting: 1
-  lastFramingTime: 7626.027693859657
+  lastFramingTime: 4704.228755086032
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.099574685, y: 113.36209, z: -1.4237026}
+    m_Target: {x: 5.3450193, y: 119.073784, z: 8.881859}
     speed: 2
-    m_Value: {x: 0.099574685, y: 113.36209, z: -1.4237026}
+    m_Value: {x: 5.3450193, y: 119.073784, z: 8.881859}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -636,13 +636,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.16363883, y: 0.44736356, z: -0.08363973, w: 0.8752876}
+    m_Target: {x: 0.04612154, y: 0.16997477, z: -0.007970618, w: 0.9843363}
     speed: 2
-    m_Value: {x: 0.16363591, y: 0.44735557, z: -0.083638236, w: 0.8752719}
+    m_Value: {x: 0.04612154, y: 0.16997477, z: -0.007970618, w: 0.9843363}
   m_Size:
-    m_Target: 2.7529428
+    m_Target: 15.058606
     speed: 2
-    m_Value: 2.7529428
+    m_Value: 15.058606
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -51,14 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SCRIPTS\CambiarMenu.cs" />
      <Compile Include="Assets\SCRIPTS\CAMERA1.cs" />
      <Compile Include="Assets\SCRIPTS\ENEMY\MOVEMENT.cs" />
      <Compile Include="Assets\SCRIPTS\ENEMY\ROTATION.cs" />
      <Compile Include="Assets\SCRIPTS\GENERAL\MOVEMENT_SHIP.cs" />
      <Compile Include="Assets\SCRIPTS\MENU\CambiarMenu.cs" />
      <Compile Include="Assets\SCRIPTS\MENU\MenuMovil.cs" />
-     <Compile Include="Assets\SCRIPTS\MenuMovil.cs" />
      <Compile Include="Assets\SCRIPTS\moving.cs" />
      <Compile Include="Assets\SCRIPTS\PLAYER\ChangeColor.cs" />
      <Compile Include="Assets\SCRIPTS\PLAYER\CharacterMovement.cs" />

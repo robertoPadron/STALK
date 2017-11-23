@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class CambiarMenu : MonoBehaviour
+{
 
     public MenuMovil NumeroViejo;
     public int NuevoNumero;
-    void OnMouseDown() {
+    void OnMouseDown()
+    {
 
         NumeroViejo.NumeroPosicion = NuevoNumero;
     }
-	
 }
