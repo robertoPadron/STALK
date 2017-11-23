@@ -9,15 +9,32 @@ public class MOVEMENT : MonoBehaviour {
     public float Cooldown = 20f;
     public float FirstPosition; // antes estaba a 7 
     public float SecondPosition; // antes estaba a -8
+    public bool Detected;
+    public float Charge;
+    float SecondCharge;
+    public Transform PlayerPosition;
+    public GameObject Bullet;
+
+
 
     // Use this for initialization
     void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        this.transform.Translate(Vector3.forward * MovementSpeed * Time.deltaTime);
+      
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        EnemyMovement();
+
+    }
+
+
+    void EnemyMovement()
+    {
+       
+            this.transform.Translate(Vector3.forward * MovementSpeed * Time.deltaTime);
+       
 
         if (this.transform.position.x >= FirstPosition & Arrived == false)
         {
@@ -48,6 +65,5 @@ public class MOVEMENT : MonoBehaviour {
             }
 
         }
-        
-	}
+    }
 }

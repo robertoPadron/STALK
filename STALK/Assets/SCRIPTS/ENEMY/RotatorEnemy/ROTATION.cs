@@ -21,6 +21,32 @@ public class ROTATION : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        DetectionRotation();
+
+
+	}
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col == Player)
+        {
+            Detected = true;
+ 
+ 
+          
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        Detected = false;
+        Charge = SecondCharge;
+    }
+
+
+
+    void DetectionRotation()
+    {
         if (Detected == false || Player == null) {
             this.transform.Rotate(Vector3.up * RotateSpeed * Time.deltaTime);
             Timer = Timer - 1 * Time.deltaTime;
@@ -44,23 +70,6 @@ public class ROTATION : MonoBehaviour {
             }
 
         }
-
-
-	}
-    void OnTriggerEnter(Collider col)
-    {
-        if (col == Player)
-        {
-            Detected = true;
- 
- 
-          
-        }
-    }
-    void OnTriggerExit(Collider col)
-    {
-        Detected = false;
-        Charge = SecondCharge;
     }
 
 }
