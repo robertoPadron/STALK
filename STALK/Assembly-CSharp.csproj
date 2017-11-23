@@ -53,8 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\SCRIPTS\CAMERA1.cs" />
      <Compile Include="Assets\SCRIPTS\ENEMY\Enemy_Movement.cs" />
-     <Compile Include="Assets\SCRIPTS\ENEMY\MOVEMENT.cs" />
-     <Compile Include="Assets\SCRIPTS\ENEMY\ROTATION.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMY\Laser\DESTROY.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMY\MovementEnemy\MOVEMENT.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMY\RotatorEnemy\ROTATION.cs" />
      <Compile Include="Assets\SCRIPTS\GENERAL\MOVEMENT_SHIP.cs" />
      <Compile Include="Assets\SCRIPTS\moving.cs" />
      <Compile Include="Assets\SCRIPTS\PLAYER\ChangeColor.cs" />
