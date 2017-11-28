@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 21
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,10 +131,10 @@ MonoBehaviour:
     y: 0
     width: 912
     height: 731
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 22
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,10 +205,10 @@ MonoBehaviour:
     y: 0
     width: 300
     height: 731
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 104
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -387,14 +387,14 @@ MonoBehaviour:
     width: 910
     height: 353
   m_SceneLighting: 1
-  lastFramingTime: 4704.228755086032
+  lastFramingTime: 1812.4013613206962
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.04233, y: 118.95276, z: 26.01507}
+    m_Target: {x: 5.841174, y: 121.254616, z: -2.9107425}
     speed: 2
-    m_Value: {x: 5.04233, y: 118.95276, z: 26.01507}
+    m_Value: {x: 5.841174, y: 121.254616, z: -2.9107425}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -417,13 +417,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.1599235, y: 0.6893645, z: -0.16019827, w: -0.6881407}
+    m_Target: {x: -0.18052594, y: 0.13785279, z: -0.025554666, w: -0.97352654}
     speed: 2
-    m_Value: {x: -0.1599235, y: 0.6893645, z: -0.16019827, w: -0.6881407}
+    m_Value: {x: -0.18052596, y: 0.1378528, z: -0.025554668, w: -0.9735266}
   m_Size:
-    m_Target: 0.5742382
+    m_Target: 0.084896326
     speed: 2
-    m_Value: 0.5742382
+    m_Value: 0.084896326
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -461,10 +461,10 @@ MonoBehaviour:
     width: 296
     height: 356
   m_TreeViewState:
-    scrollPos: {x: 0, y: 80}
-    m_SelectedIDs: d4fbffff
-    m_LastClickedID: -1068
-    m_ExpandedIDs: 12fcffff00000000ba2c0000202d0000
+    scrollPos: {x: 0, y: 989}
+    m_SelectedIDs: 44c6f9ff
+    m_LastClickedID: -407996
+    m_ExpandedIDs: d460faff8632fcff1afcffff00000000542d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,19 +525,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SCRIPTS/GENERAL
+    - Assets/DOWNLOADED/SKY city lite/Props
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SCRIPTS/GENERAL
+  - Assets/DOWNLOADED/SKY city lite/Props
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\STALK_REPO\STALK\STALK
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a270000
-    m_LastClickedID: 10090
-    m_ExpandedIDs: 00000000ee2600003a27000072270000a4270000262800005c280000802800009e280000be280000d22800001029000014290000302900004a2900002c2a00003c2a00000c2b0000262b0000382b0000642b00000e2f0000102f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 267.10645}
+    m_SelectedIDs: f2280000
+    m_LastClickedID: 10482
+    m_ExpandedIDs: 00000000d02600001c2700005427000086270000082800003e2800006228000080280000a0280000b4280000f2280000f6280000122900002c290000c8290000ee2a0000082b00001a2b0000462b0000682f00006a2f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee2600003a27000072270000a4270000262800005c280000802800009e280000be280000d22800001029000014290000302900004a2900002c2a00003c2a00000c2b0000262b0000382b0000642b00000e2f0000102f0000
+    m_ExpandedIDs: 00000000d02600001c2700005427000086270000082800003e2800006228000080280000a0280000b4280000f2280000f6280000122900002c2900000e2a00001e2a0000ee2a0000082b00001a2b0000462b0000682f00006a2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
