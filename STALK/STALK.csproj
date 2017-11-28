@@ -83,6 +83,7 @@
     <Compile Include="Assets\SCRIPTS\ENEMY\Laser\DESTROY.cs" />
     <Compile Include="Assets\SCRIPTS\ENEMY\MOVEMENT.cs" />
     <Compile Include="Assets\SCRIPTS\ENEMY\ROTATION.cs" />
+    <Compile Include="Assets\SCRIPTS\GENERAL\BasicMovement.cs" />
     <Compile Include="Assets\SCRIPTS\GENERAL\MOVEMENT_SHIP.cs" />
     <Compile Include="Assets\SCRIPTS\MENU\CambiarMenu.cs" />
     <Compile Include="Assets\SCRIPTS\MENU\MenuMovil.cs" />

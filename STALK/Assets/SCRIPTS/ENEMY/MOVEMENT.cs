@@ -7,14 +7,15 @@ public class MOVEMENT : MonoBehaviour {
     public float Rotation;
     public bool Arrived = false;
     public float Cooldown = 20f;
-    public float FirstPosition; // antes estaba a 7 
-    public float SecondPosition; // antes estaba a -8
+    public float RightPosition; // antes estaba a 7 
+    public float LeftPosition; // antes estaba a -8
     public bool Detected;
     public float Charge;
     float SecondCharge;
     public Transform PlayerPosition;
     public GameObject Bullet;
-
+    public GameObject Character;
+   
 
 
     // Use this for initialization
@@ -26,17 +27,47 @@ public class MOVEMENT : MonoBehaviour {
     void Update()
     {
         EnemyMovement();
-
+        Detection();
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Character")
+        {
+            Destroy(Character);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Character")
+        {
+            Detected = true;
+        }
     }
 
 
+
+
+
+
+
+
+
+
+
+    void Detection()
+    {
+        if (Detected == true)
+        {
+             transform.LookAt(PlayerPosition);
+        }
+    }
     void EnemyMovement()
     {
        
             this.transform.Translate(Vector3.forward * MovementSpeed * Time.deltaTime);
        
 
-        if (this.transform.position.x >= FirstPosition & Arrived == false)
+        if (this.transform.position.x >= RightPosition & Arrived == false)
         {
             Rotation = 20f;
             this.transform.Rotate(Vector3.up * Rotation * Time.deltaTime);
@@ -50,7 +81,7 @@ public class MOVEMENT : MonoBehaviour {
                 Rotation = 0f;
             }
         }
-        if (this.transform.position.x <= SecondPosition & Arrived == true)
+        if (this.transform.position.x <= LeftPosition & Arrived == true)
         {
             MovementSpeed = 0;
             Rotation = 20f;
