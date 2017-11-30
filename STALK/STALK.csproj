@@ -219,6 +219,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Scripts\SCG_Base_Controller.cs" />
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\AntiAliasing.cs" />
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\Common\ImageEffectHelper.cs" />
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\Common\RenderTexureUtility.cs" />
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\DepthOfField.cs" />
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
+    <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\TonemappingColorGrading.cs" />
     <Compile Include="Assets\SCRIPTS\CambiarEscena.cs" />
     <Compile Include="Assets\SCRIPTS\CAMERA1.cs" />
     <Compile Include="Assets\SCRIPTS\ENEMY\Enemy_Movement.cs" />
@@ -235,7 +242,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DOWNLOADED\!SCI_FI_Modular_Pack_Free\AdditiveTint.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Readme.txt" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.cginc" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\BokehSplatting.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\DepthOfField.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\MedianFilter.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\Histogram.compute" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGrading.shader" />
+    <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGradingHistogram.shader" />
     <None Include="Assets\DOWNLOADED\Corvette\Readme.txt" />
+    <None Include="Assets\DOWNLOADED\KEYS\Key\readME keys.txt" />
     <None Include="Assets\DOWNLOADED\SKY city lite\Foliage\Materials\Vegetation.shader" />
     <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
