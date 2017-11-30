@@ -226,7 +226,6 @@
     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\DepthOfField.cs" />
     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\TonemappingColorGrading.cs" />
-    <Compile Include="Assets\SCRIPTS\CambiarEscena.cs" />
     <Compile Include="Assets\SCRIPTS\CAMERA1.cs" />
     <Compile Include="Assets\SCRIPTS\ENEMY\Enemy_Movement.cs" />
     <Compile Include="Assets\SCRIPTS\ENEMY\Laser\DESTROY.cs" />
@@ -239,6 +238,7 @@
     <Compile Include="Assets\SCRIPTS\moving.cs" />
     <Compile Include="Assets\SCRIPTS\PLAYER\ChangeColor.cs" />
     <Compile Include="Assets\SCRIPTS\PLAYER\CharacterMovement.cs" />
+    <Compile Include="Assets\SCRIPTS\Scene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DOWNLOADED\!SCI_FI_Modular_Pack_Free\AdditiveTint.shader" />

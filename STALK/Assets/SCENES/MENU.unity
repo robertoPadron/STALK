@@ -2173,6 +2173,11 @@ Prefab:
       propertyPath: reference
       value: 
       objectReference: {fileID: 1453414156}
+    - target: {fileID: 23602882982622292, guid: 0b3a80039577c0140a2431750b6441a8,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b282305b655468a4fb12ce50de6debee, type: 2}
     m_RemovedComponents:
     - {fileID: 114399379415367016, guid: 0b3a80039577c0140a2431750b6441a8, type: 2}
     - {fileID: 114441635257323842, guid: 0b3a80039577c0140a2431750b6441a8, type: 2}
@@ -7633,7 +7638,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993865440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe6019e1804033a4e933178318c45ffb, type: 3}
+  m_Script: {fileID: 11500000, guid: 911a9582f39a1db4ca88b424012a57e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2000570653
