@@ -51,12 +51,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\AntiAliasing.cs" />
+     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\Common\ImageEffectHelper.cs" />
+     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\Common\RenderTexureUtility.cs" />
+     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\DepthOfField.cs" />
+     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
+     <Compile Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\TonemappingColorGrading.cs" />
      <Compile Include="Assets\SCRIPTS\CAMERA1.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMY\Enemy_Movement.cs" />
+     <Compile Include="Assets\SCRIPTS\ENEMY\Laser\DESTROY.cs" />
      <Compile Include="Assets\SCRIPTS\ENEMY\MOVEMENT.cs" />
      <Compile Include="Assets\SCRIPTS\ENEMY\ROTATION.cs" />
+     <Compile Include="Assets\SCRIPTS\GENERAL\BasicMovement.cs" />
      <Compile Include="Assets\SCRIPTS\GENERAL\MOVEMENT_SHIP.cs" />
      <Compile Include="Assets\SCRIPTS\MENU\CambiarMenu.cs" />
      <Compile Include="Assets\SCRIPTS\MENU\MenuMovil.cs" />
+     <Compile Include="Assets\SCRIPTS\MENU\Scene.cs" />
      <Compile Include="Assets\SCRIPTS\moving.cs" />
      <Compile Include="Assets\SCRIPTS\PLAYER\ChangeColor.cs" />
      <Compile Include="Assets\SCRIPTS\PLAYER\CharacterMovement.cs" />
@@ -77,6 +87,7 @@
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
@@ -85,9 +96,14 @@
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\DepthOfField.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGradingHistogram.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.shader" />
+     <None Include="Assets\DOWNLOADED\KEYS\Key\readME keys.txt" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
@@ -103,6 +119,8 @@
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\DOWNLOADED\Corvette\Readme.txt" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.cginc" />
+     <None Include="Assets\DOWNLOADED\!SCI_FI_Modular_Pack_Free\AdditiveTint.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
@@ -111,6 +129,8 @@
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Readme.txt" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGrading.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
@@ -127,12 +147,14 @@
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\MedianFilter.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Foliage\Materials\Vegetation.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\BokehSplatting.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
@@ -140,6 +162,7 @@
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\DOWNLOADED\Cardboard realistic boxes [HQ,Free]\SCG_Showcase_Modules\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\Histogram.compute" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\DOWNLOADED\SKY city lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
